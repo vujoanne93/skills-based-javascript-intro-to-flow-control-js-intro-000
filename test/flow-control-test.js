@@ -34,12 +34,12 @@ describe('flow-control', () => {
 
   describe('teenager', () => {
     it('should return "You are a teenager!" if the age is between 13-19', () => {
-      expect(teenager(13)).toEqual("You are a teenager!")
+      expect(teenager(13)).toEqual("You are a teenager!");
     })
 
     it('should return "You are not a teenager" if the age is not between 13-19', () => {
-      expect(teenager(12)).toEqual("You are not a teenager")
-      expect(teenager(29)).toEqual("You are not a teenager")
+      expect(teenager(12)).toEqual("You are not a teenager");
+      expect(teenager(29)).toEqual("You are not a teenager");
     })
   })
 
